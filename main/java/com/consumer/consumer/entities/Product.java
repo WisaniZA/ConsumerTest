@@ -14,7 +14,6 @@ public class Product {
     private String name;
     private Product type;
     private Double balance;
-
     @ManyToOne
     @JoinColumn(name = "investor_id")
     private Investor investor;

@@ -36,6 +36,7 @@ public class InvestorController {
      * getAllInvestor
      * @return List<Investor>
      */
+
     @GetMapping("/all")
     @ResponseStatus(HttpStatus.OK)
     public List<Investor> getAllInvestor() {
