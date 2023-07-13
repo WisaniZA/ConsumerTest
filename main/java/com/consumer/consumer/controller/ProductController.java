@@ -35,7 +35,7 @@ public class ProductController {
     public String getProduct(@PathVariable UUID productId) {
         return productService.getProduct(productId).toString();
     }
-    @PostMapping("/create")
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public String createProduct(Product product) {
         return productService.createProduct(product).toString();

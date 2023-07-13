@@ -24,4 +24,5 @@ public class Investor {
     private String phone;
     private String address;
     private boolean active;
+
 }
